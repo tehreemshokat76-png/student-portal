@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <h2>Student Portal</h2>
+
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#about">About</a></li>
+        </ul>
+    </nav>
+
+    <!-- Welcome Section -->
+    <section class="welcome-section" id="home">
+        <h1>Welcome to Student Portal</h1>
+        <p>Your academic journey starts here!</p>
+
+        <button onclick="showMessage()">Click Here</button>
+
+        <p id="message"></p>
+    </section>
+
+    <!-- Student Information -->
+    <section class="container" id="about">
+
+        <h2>Student Dashboard</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <h3>My Profile</h3>
+                <p>View your student information.</p>
+            </div>
+
+            <div class="card">
+                <h3>My Courses</h3>
+                <p>Explore your enrolled courses.</p>
+            </div>
+
+            <div class="card">
+                <h3>My Results</h3>
+                <p>Check your academic performance.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section class="courses" id="courses">
+        <h2>Available Courses</h2>
+
+        <div class="course-list">
+            <div class="course">HTML & CSS</div>
+            <div class="course">JavaScript</div>
+            <div class="course">Database Systems</div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Student Portal. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

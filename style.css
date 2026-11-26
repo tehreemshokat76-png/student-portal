@@ -1,0 +1,152 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f9;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #facc15;
+}
+
+/* Welcome Section */
+.welcome-section {
+    background-color: #dbeafe;
+    text-align: center;
+    padding: 60px 20px;
+    margin: 25px;
+    border-radius: 10px;
+}
+
+.welcome-section h1 {
+    color: #1e3a8a;
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+.welcome-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #2563eb;
+}
+
+/* Dashboard */
+.container {
+    padding: 30px;
+    text-align: center;
+}
+
+.container h2 {
+    color: #1e3a8a;
+    margin-bottom: 25px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    padding: 30px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.card h3 {
+    color: #1e3a8a;
+    margin-bottom: 15px;
+}
+
+/* Courses */
+.courses {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.courses h2 {
+    color: #1e3a8a;
+    margin-bottom: 25px;
+}
+
+.course-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.course {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px;
+    width: 200px;
+    border-radius: 8px;
+}
+
+/* Footer */
+footer {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+/* Welcome Banner - Feature Branch */
+.welcome-banner {
+    background-color: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.welcome-banner h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
